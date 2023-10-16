@@ -61,7 +61,6 @@ body {
     display: grid;
     grid-template-areas:
       'header header header header header header'
-      'img main main main main main'
       'img main main main main main';
     gap: 10px;
     background-color: #2196F3;
