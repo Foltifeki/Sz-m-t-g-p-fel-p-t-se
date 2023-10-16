@@ -41,8 +41,8 @@ body {
   }
 
   .item1 { grid-area: header; }
-  .item2 { grid-area: img; }
-  .item3 { grid-area: main; }
+  .item2 { grid-area: img; width: 120px;}
+  .item3 { grid-area: main;  }
   
   
   .grid-container {
@@ -54,7 +54,6 @@ body {
     gap: 1px;
     background-color: #c34d4d;
     padding: 10px;
-    width: 80%;
     margin: auto;
   }
   
@@ -75,4 +74,16 @@ body {
     font-size: 20px;
     width: 90%;
     margin: auto;
+  }
+
+  @media (min-width: 1000px) {
+    .grid-container {
+      width: 1000px;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .grid-container {
+      width: 100%;
+    }
   }
